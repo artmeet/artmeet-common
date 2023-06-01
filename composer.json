@@ -1,0 +1,17 @@
+{
+    "name": "artmeet/common",
+    "description": "Common packages for Artmeet Team internal usage",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Artmeet\\Common\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Xavier Loo",
+            "email": "xavier@artmeet.com"
+        }
+    ],
+    "require": {}
+}
