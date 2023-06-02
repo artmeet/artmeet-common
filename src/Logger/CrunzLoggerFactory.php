@@ -7,7 +7,7 @@ use Crunz\Application\Service\LoggerFactoryInterface;
 use Psr\Log\AbstractLogger;
 use Psr\Log\LoggerInterface;
 
-final class MyCrunzLoggerFactory implements LoggerFactoryInterface
+final class CrunzLoggerFactory implements LoggerFactoryInterface
 {
   public function create(ConfigurationInterface $configuration): LoggerInterface
   {
