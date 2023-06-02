@@ -13,5 +13,8 @@
             "email": "xavier@artmeet.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.4.4"
+    },
+    "minimum-stability": "dev"
 }
